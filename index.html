@@ -36,13 +36,17 @@
       </div>
 
       <div class="flex gap-9">
-        <ul class="flex gap-9">
+        <ul class="hidden md:flex gap-5">
           <li>Services</li>
           <li>Industries</li>
           <li>About Us</li>
           <li>Team DaPixel</li>
-          <li>Blog</li>
+          <li>Blog <a href="./lastwebsite/blog.html">blog</a></li>
         </ul>
+        <img
+          src="./img/nevbar.svg"
+          class="flex md:hidden justify-end items-end cursor-pointer text-orange"
+        />
 
         <button
           class="flex text-orange border-2 border-orange border-solid w-[100px] h-[40px] rounded-full justify-center items-center py-[px]"
@@ -53,34 +57,37 @@
     </nav>
     <!-- end navbar  -->
     <!-- herro section start -->
-    <div class="grid sm:grid-col-1 grid-cols-2 items-center">
-      <div class="flex flex-col gap-y-3 items-center">
-        <h1 class="flex text-3xl font-bold">
-          We Help you grow<br />
-          your conversions
-        </h1>
-        <p class="flex text-xs">
-          Featured in leading publications around the world
-        </p>
-        <div class="flex gap-x-6">
-          <img src="./img/word 1.svg" alt="word 1" class="flex w-[80px]" />
-          <img src="./img/word 2.svg" alt="word 2" class="flex w-[80px]" />
-          <img src="./img/word 3.svg" alt="word 3" class="flex w-[80px]" />
+    <div class="flex justify-center gap-x-9">
+      <div class="grid grid-col-1 md:grid-cols-2 items-center justify-center lg:gap-x-[200px] md:gap-x-[100px]">
+        <div class="flex flex-col gap-y-3 items-center">
+          <h1 class="flex text-3xl font-bold">
+            We Help you grow<br />
+            your conversions
+          </h1>
+          <p class="flex text-xs">
+            Featured in leading publications around the world
+          </p>
+          <div class="flex gap-x-6">
+            <img src="./img/word 1.svg" alt="word 1" class="flex w-[80px]" />
+            <img src="./img/word 2.svg" alt="word 2" class="flex w-[80px]" />
+            <img src="./img/word 3.svg" alt="word 3" class="flex w-[80px]" />
+          </div>
+          <button
+            class="flex bg-orange w-[100px] h-[40px] justify-center items-center text-white rounded-xl"
+          >
+            contact us
+          </button>
         </div>
-        <button
-          class="flex bg-orange w-[100px] h-[40px] justify-center items-center text-white rounded-xl"
-        >
-          contact us
-        </button>
-      </div>
-      <div class="flex">
-        <img
-          src="./img/Social Media 1.svg"
-          alt=" social media"
-          class="flex w-[200px]"
-        />
+        <div class="flex">
+          <img
+            src="./img/Social Media 1.svg"
+            alt=" social media"
+            class="flex w-[200px] justify-center"
+          />
+        </div>
       </div>
     </div>
+
     <!-- herro section end  -->
     <div class="flex justify-center items-center py-9 font-bold text-lg">
       <h2>How it Works</h2>
@@ -145,27 +152,27 @@
     <!-- next  -->
     <div class="flex justify-center py-12 gap-x-2">
       <div
-        class="flex bg-orange w-[800px] h-[300px] justify-center items-center py-9 gap-x-2"
+        class="grid md:grid-cols-2 bg-orange md:w-[800px] w-[500px]  h-[300px] justify-center items-center py-9 gap-x-2"
       >
         <div>
           <a
-            class="flex bg-white w-[70px] h-[9px] justify-center items-center rounded-full"
+            class="grid bg-white w-[70px] h-[9px] justify-center items-center rounded-full"
           ></a>
-          <h7 class="flex text-white text-3xl font-bold"
+          <h7 class="grid text-white text-3xl font-bold"
             >book a free gijital<br />
             Marketing consultation
           </h7>
         </div>
 
-        <div class="flex flex-col gap-y-3">
-          <div class="flex">
+        <div class="grid  gap-y-3">
+          <div class="grid">
             <input
               type=" zsiubgf "
               placeholder=" your email"
               class="outline-none ring-0 border-solid w-[300px] h-[30px] bg-white rounded-full text-xs"
             />
           </div>
-          <div class="flex">
+          <div class="grid">
             <button
               class="flex outline-none ring-0 w-[300px] h-[30px] bg-dark-orange rounded-full text-white justify-center"
             >
@@ -196,7 +203,7 @@
     <!-- next  -->
     <div class="main flex justify-center py-9">
       <div
-        class="flex bg-orange w-[800px] h-[300px] justify-center items-center py-9 gap-x-[50px]"
+        class="grid sm:grid-col-1 md:grid-cols-2 md:gap-x-2 bg-orange sm:w-[500px] md:w-[800px] sm:h-[500px] md:h-[300px]  justify-center items-center py-9 "
       >
         <div>
           <a class="flex bg-white w-[50px] h-[3px] rounded-full"></a>
@@ -205,7 +212,7 @@
             Articles
           </p>
         </div>
-        <div class="flex gap-x-12">
+        <div class="grid grid-cols-2 gap-x-2">
           <div
             class="flex flex-col bg-dark-yellow w-[200px] h-[200px] rounded-lg justify-center items-center gap-y-3"
           >
@@ -244,7 +251,7 @@
       </div>
     </div>
     <!-- next  -->
-    <div class="flex justify-center gap-x-6">
+    <div class="grid sm:grid-col-1 md:grid-cols-2 justify-center items-center g">
       <div class="flex flex-col gap-y-3">
         <h9 class="flex font-bold text-xl">Why Dafixel?</h9>
         <p>
@@ -259,7 +266,64 @@
           book free meeting>
         </button>
       </div>
-      <div><img src="./img/Marketing.png" alt="marketing" class="flex w-[300px]" /></div>
+      <div>
+        <img src="./img/Marketing.png" alt="marketing" class="flex w-[300px]" />
+      </div>
+    </div>
+    <!-- next  -->
+    <!-- footer  -->
+    <div class="flex justify-center py-9">
+      <div
+        class="flex bg-orange w-[800px] h-[300px] justify-center items-center py-9 gap-x-[200px]"
+      >
+        <div class="flex flex-col gap-y-7">
+          <img src="./img/logo.svg" alt=" logo" class="" />
+          <p>
+            REBORN STUDIO AB<br />
+            Org.nr: 559264-1871<br />
+            Lunar Holding LDA<br />
+            info@dapixel.io<br />
+            +467-20478390
+          </p>
+          <i class="fa-brands fa-facebook fa-solid"></i>
+
+          <div class="flex text-lg text-black">
+            <i class="flex fa-brands fa-twitter fa-solid"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-facebook"></i>
+
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <font-awesome-icon :icon="['fab', 'twitter']" />
+
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+        <div class="flex gap-x-8">
+          <div class="flex flex-col gap-y-2">
+            <h9 class="text-black font-bold text-xl">company</h9>
+            <p class="flex text-xs">Home</p>
+            <p class="flex text-xs">about us</p>
+            <p class="flex text-xs">luner blog</p>
+            <p class="flex text-xs">our specialists</p>
+            <p class="flex text-xs">contact us</p>
+            <p class="flex text-xs">privacy & policy</p>
+          </div>
+          <div class="flex flex-col gap-y-2">
+            <h10 class="text-black font-bold text-xl">services</h10>
+            <p class="flex text-xs">digital markiting</p>
+            <p class="flex text-xs">free audit</p>
+            <p class="flex text-xs">google ads</p>
+            <p class="flex text-xs">criptucruncy marketing</p>
+            <p class="flex text-xs">SEO</p>
+            <p class="flex text-xs">saas marketing</p>
+            <p>website & SEO</p>
+          </div>
+        </div>
+    
+      </div>
     </div>
   </body>
 </html>
