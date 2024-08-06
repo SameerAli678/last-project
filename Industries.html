@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -24,8 +24,38 @@
       };
     </script>
     <title>Industries</title>
-</head>
-<body>
+  </head>
+  <body>
+    <nav
+      class="grid grid-cols-2 justify-center items-center gap- px-[30px] py-[0px]"
+    >
+      <div>
+        <img src="./img/logo.svg" alt="logo" class="flex justify-evenly" />
+      </div>
+
+      <div class="flex gap-2 py-9">
+        <ul class="hidden md:flex gap-5 py-2">
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./lunar specailists.html">lunarspecailists</a></li>
+          <li><a href="./Industries.html">Industries</a></li>
+          <li><a href="./About us.html">AboutUs </a></li>
+          <li><a href="./free Audit.html">freeAudit</a></li>
+          <li><a href="./blog.html">blog</a></li>
+        </ul>
+        <img
+          src="./img/nevbar.svg"
+          class="flex md:hidden justify-end items-end cursor-pointer text-orange"
+        />
+
+        <button
+          class="flex text-orange border-2 border-orange border-solid w-[100px] h-[40px] rounded-full justify-center items-center"
+        >
+          contact us
+        </button>
+      </div>
+    </nav>
+    <!-- end navbar  -->
+    <!-- herro section  -->
     
-</body>
+  </body>
 </html>
