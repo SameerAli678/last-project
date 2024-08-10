@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script>
       tailwind.config = {
         theme: {
@@ -26,7 +33,7 @@
 
     <title>last web site</title>
   </head>
-  <body class="fle flex-col justify-center items-center">
+  <body class="flex flex-col items-center">
     <!-- start navbar -->
     <nav
       class="grid grid-cols-2 justify-center items-center gap- px-[30px] py-[0px]"
@@ -42,8 +49,7 @@
           <li><a href="./Industries.html">Industries</a></li>
           <li><a href="./About us.html">AboutUs</a></li>
           <li><a href="./free Audit.html">freeAudit</a></li>
-          <li> <a href="./blog.html">blog</a></li>
-
+          <li><a href="./blog.html">blog</a></li>
         </ul>
         <img
           src="./img/nevbar.svg"
@@ -51,7 +57,7 @@
         />
 
         <button
-          class="flex text-orange border-2 border-orange border-solid w-[100px] h-[40px] rounded-full justify-center items-center "
+          class="flex text-orange border-2 border-orange border-solid w-[100px] h-[40px] rounded-full justify-center items-center"
         >
           contact us
         </button>
@@ -60,7 +66,9 @@
     <!-- end navbar  -->
     <!-- herro section start -->
     <div class="flex justify-center gap-x-9">
-      <div class="grid grid-col-1 md:grid-cols-2 items-center justify-center lg:gap-x-[200px] md:gap-x-[100px]">
+      <div
+        class="grid grid-col-1 md:grid-cols-2 items-center justify-center lg:gap-x-[200px] md:gap-x-[100px]"
+      >
         <div class="flex flex-col gap-y-3 items-center">
           <h1 class="flex text-3xl font-bold">
             We Help you grow<br />
@@ -94,9 +102,11 @@
     <div class="flex justify-center items-center py-9 font-bold text-lg">
       <h2>How it Works</h2>
     </div>
+    <!-- next  -->
 
-    <div class="flex flex-col justify-center items-center">
-      <div class="flex gap-x-9 justify-start items-center">
+    <div class="flex flex-col gap-y-9">
+      <!-- 1 -->
+      <div class="flex justify-start gap-x-9 items-center">
         <img src="./img/goal.svg" alt="goal" class="w-[120px]" />
         <div class="flex flex-col gap-y-2">
           <h3 class="flex text-xl text-orange font-bold">Goal</h3>
@@ -108,7 +118,8 @@
           </p>
         </div>
       </div>
-      <div class="flex gap-x-9 justify-center items-center">
+      <!-- 2 -->
+      <div class="flex justify-end gap-x-9 items-center">
         <img src="./img/competitors.svg" alt="competitors" class="w-[120px]" />
         <div>
           <h4 class="flex text-xl text-orange font-bold">competitors</h4>
@@ -121,6 +132,7 @@
           </p>
         </div>
       </div>
+      <!-- 3 -->
 
       <div class="flex gap-x-6 justify-start">
         <div class="flex justify-start">
@@ -137,8 +149,9 @@
           </p>
         </div>
       </div>
-      <div class="flex gap-x-6">
-        <div><img src="./img/lunch.png" alt="lunch" class="w-[120px]" /></div>
+      <!-- 4 -->
+      <div class="flex gap-x-6 justify-end">
+        <div><img src="./img/lunch.png" alt="lunch" class="w-[150px]" /></div>
         <div>
           <h6 class="flex text-xl text-orange font-bold">lunch</h6>
           <a class="flex bg-orange w-12 h-1 rounded-xl"></a>
@@ -154,7 +167,7 @@
     <!-- next  -->
     <div class="flex justify-center py-12 gap-x-2">
       <div
-        class="grid md:grid-cols-2 bg-orange md:w-[800px] w-[500px]  h-[300px] justify-center items-center py-9 gap-x-2"
+        class="grid md:grid-cols-2 bg-orange md:w-[800px] w-[500px] h-[300px] justify-center items-center py-9 gap-x-2"
       >
         <div>
           <a
@@ -166,7 +179,7 @@
           </h7>
         </div>
 
-        <div class="grid  gap-y-3">
+        <div class="grid gap-y-3">
           <div class="grid">
             <input
               type=" zsiubgf "
@@ -205,7 +218,7 @@
     <!-- next  -->
     <div class="main flex justify-center py-9">
       <div
-        class="grid sm:grid-col-1 md:grid-cols-2 md:gap-x-2 bg-orange sm:w-[500px] md:w-[800px] sm:h-[500px] md:h-[300px]  justify-center items-center py-9 "
+        class="grid sm:grid-col-1 md:grid-cols-2 md:gap-x-2 bg-orange sm:w-[500px] md:w-[800px] sm:h-[500px] md:h-[300px] justify-center items-center py-9"
       >
         <div>
           <a class="flex bg-white w-[50px] h-[3px] rounded-full"></a>
@@ -253,14 +266,16 @@
       </div>
     </div>
     <!-- next  -->
-     <div class="flex justify-center items-center">
-      <div class="grid sm:grid-col-1 md:grid-cols-2 justify-center items-center gap-x-9">
+    <div class="flex justify-center items-center">
+      <div
+        class="grid sm:grid-col-1 md:grid-cols-2 justify-center items-center gap-x-9"
+      >
         <div class="flex flex-col gap-y-3">
           <h9 class="flex font-bold text-xl">Why Dafixel?</h9>
           <p>
             To get customers, it's imperative to be seen by the mass.<br />
-            Every successful company is unique and needs contrasting <br />digital
-            marketing strategies. Book a meeting with us and we<br />
+            Every successful company is unique and needs contrasting
+            <br />digital marketing strategies. Book a meeting with us and we<br />
             will help you find the correct strategy for your company.
           </p>
           <button
@@ -270,12 +285,15 @@
           </button>
         </div>
         <div>
-          <img src="./img/Marketing.png" alt="marketing" class="flex w-[300px]" />
+          <img
+            src="./img/Marketing.png"
+            alt="marketing"
+            class="flex w-[300px]"
+          />
         </div>
       </div>
+    </div>
 
-     </div>
-    
     <!-- next  -->
     <!-- footer  -->
     <div class="flex justify-center py-9">
@@ -291,20 +309,17 @@
             info@dapixel.io<br />
             +467-20478390
           </p>
-          <i class="fa-brands fa-facebook fa-solid"></i>
+         
 
-          <div class="flex text-lg text-black">
-            <i class="flex fa-brands fa-twitter fa-solid"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
+          <div class="flex text-lg text-black gap-x-5">
             <i class="fa-brands fa-facebook"></i>
+            <i class="flex fa-brands fa-twitter fa-solid"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+           
+           
 
-            <i class="fa-brands fa-square-instagram"></i>
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <font-awesome-icon :icon="['fab', 'twitter']" />
-
-            <i class="fa-brands fa-twitter"></i>
+           
           </div>
         </div>
         <div class="flex gap-x-8">
@@ -328,9 +343,8 @@
             <p>website & SEO</p>
           </div>
         </div>
-    
       </div>
     </div>
-        <!-- footer end  -->
+    <!-- footer end  -->
   </body>
 </html>
