@@ -30,137 +30,138 @@
         },
       };
     </script>
-
-    <title>last web site</title>
+    <title>Dapixel</title>
   </head>
-  <body class="flex flex-col items-center">
+  <body>
     <!-- start navbar -->
-    <nav
-      class="grid grid-cols-2 justify-center items-center gap- px-[30px] py-[0px]"
-    >
-      <div>
-        <img src="./img/logo.svg" alt="logo" class="flex justify-evenly" />
-      </div>
+    <nav class="flex justify-around items-center">
+      <a href="./index.html">
+        <img src="./img/logo.svg" alt="logo" class="cursor-pointer" />
+      </a>
 
-      <div class="flex gap-2 py-9">
-        <ul class="hidden md:flex gap-5 py-2">
+      <div class="flex py-9">
+        <ul class="hidden md:flex gap-3 py-2 font-sami-bold">
           <li><a href="./services.html">Services</a></li>
           <li><a href="./lunar specailists.html">lunarspecailists</a></li>
           <li><a href="./Industries.html">Industries</a></li>
           <li><a href="./About us.html">AboutUs</a></li>
-          <li><a href="./free Audit.html">freeAudit</a></li>
-          <li><a href="./blog.html">blog</a></li>
+          <li><a href="./free Audit.html">FreeAudit</a></li>
+          <li><a href="./blog.html">Blog</a></li>
         </ul>
         <img
-          src="./img/nevbar.svg"
+          src="./img/Sidebar.png"
           class="flex md:hidden justify-end items-end cursor-pointer text-orange"
+          width="30"
         />
-
-        <button
-          class="flex text-orange border-2 border-orange border-solid w-[100px] h-[40px] rounded-full justify-center items-center"
-        >
-          contact us
-        </button>
       </div>
+      <button
+        class="hidden md:flex text-orange border-2 border-orange border-solid w-[100px] h-[40px] rounded-full justify-center items-center"
+      >
+        contact us
+      </button>
     </nav>
     <!-- end navbar  -->
-    <!-- herro section start -->
-    <div class="flex justify-center gap-x-9">
-      <div
-        class="grid grid-col-1 md:grid-cols-2 items-center justify-center lg:gap-x-[200px] md:gap-x-[100px]"
-      >
-        <div class="flex flex-col gap-y-3 items-center">
-          <h1 class="flex text-3xl font-bold">
-            We Help you grow<br />
-            your conversions
-          </h1>
-          <p class="flex text-xs">
-            Featured in leading publications around the world
-          </p>
-          <div class="flex gap-x-6">
-            <img src="./img/word 1.svg" alt="word 1" class="flex w-[80px]" />
-            <img src="./img/word 2.svg" alt="word 2" class="flex w-[80px]" />
-            <img src="./img/word 3.svg" alt="word 3" class="flex w-[80px]" />
-          </div>
-          <button
-            class="flex bg-orange w-[100px] h-[40px] justify-center items-center text-white rounded-xl"
-          >
-            contact us
-          </button>
+    <!-- hero section start -->
+    <div class="flex flex-col md:flex-row items-center justify-around">
+      <div class="flex flex-col gap-y-3 px-5">
+        <h1 class="flex text-3xl font-bold">
+          We Help You Grow Your Conversions
+        </h1>
+        <p class="flex text-md">
+          Featured in leading publications around the World.
+        </p>
+        <div class="flex flex-wrap gap-x-6">
+          <img src="./img/word 1.svg" alt="word 1" width="100" />
+          <img src="./img/word 2.svg" alt="word 2" width="100" />
+          <img src="./img/word 3.svg" alt="word 3" width="100" />
         </div>
-        <div class="flex">
-          <img
-            src="./img/Social Media 1.svg"
-            alt=" social media"
-            class="flex w-[200px] justify-center"
-          />
-        </div>
+        <button
+          class="flex bg-orange w-[100px] h-[40px] justify-center items-center text-white rounded-xl"
+        >
+          Contact US
+        </button>
+      </div>
+      <div class="flex">
+        <img src="./img/Social Media 1.svg" alt=" social media" width="300" />
       </div>
     </div>
-
-    <!-- herro section end  -->
+    <!-- hero section end  -->
     <div class="flex justify-center items-center py-9 font-bold text-lg">
       <h2>How it Works</h2>
     </div>
-    <!-- next  -->
-
-    <div class="flex flex-col gap-y-9">
+    <!-- How it Works -->
+    <div class="flex flex-col gap-y-9 px-5">
       <!-- 1 -->
-      <div class="flex justify-start gap-x-9 items-center">
-        <img src="./img/goal.svg" alt="goal" class="w-[120px]" />
-        <div class="flex flex-col gap-y-2">
-          <h3 class="flex text-xl text-orange font-bold">Goal</h3>
-          <a class="flex bg-orange w-12 h-1 rounded-xl"></a>
-          <p class="flex text-xs">
-            To help your company grow, we want to understand your goals.<br />
-            With that, we can provide you with a complete road map<br />
-            towards achieving them.
-          </p>
+      <div class="flex justify-start">
+        <div
+          class="flex flex-col sm:flex-row gap-9 shadow-xl p-5 md:w-[600px] rounded-md"
+        >
+          <img src="./img/goal.svg" alt="goal" width="120" />
+          <div class="flex flex-col gap-y-2">
+            <h1 class="flex text-xl text-orange font-bold">Goal</h1>
+            <a class="flex bg-orange w-12 h-1 rounded-xl"></a>
+            <p class="flex text-xs">
+              To help your company grow, we want to understand your goals. With
+              that, we can provide you with a complete road map towards
+              achieving them.
+            </p>
+          </div>
         </div>
       </div>
+
       <!-- 2 -->
-      <div class="flex justify-end gap-x-9 items-center">
-        <img src="./img/competitors.svg" alt="competitors" class="w-[120px]" />
-        <div>
-          <h4 class="flex text-xl text-orange font-bold">competitors</h4>
-          <a class="flex bg-orange w-12 h-[2px] rounded-xl"></a>
-          <p class="">
-            Everybody wants to be the best in their field. To achieve<br />
-            success, we audit your competitors and find out what is<br />
-            working and what is not. All this to help you save time, money,<br />
-            and effort on things that do not work and focus on what does.
-          </p>
+      <div class="flex justify-end">
+        <div
+          class="flex flex-col sm:flex-row gap-9 shadow-xl p-5 md:w-[600px] rounded-md"
+        >
+          <img src="./img/competitors.svg" alt="competitors" width="120" />
+          <div>
+            <h1 class="flex text-xl text-orange font-bold">competitors</h1>
+            <a class="flex bg-orange w-12 h-[2px] rounded-xl"></a>
+            <p class="">
+              Everybody wants to be the best in their field. To achieve success,
+              we audit your competitors and find out what is working and what is
+              not. All this to help you save time, money, and effort on things
+              that do not work and focus on what does.
+            </p>
+          </div>
         </div>
       </div>
       <!-- 3 -->
+      <div class="flex justify-start">
+        <div
+          class="flex flex-col sm:flex-row gap-9 shadow-xl p-5 md:w-[600px] rounded-md"
+        >
+          <img src="./img/strategy.png" alt="strategy" width="120" />
 
-      <div class="flex gap-x-6 justify-start">
-        <div class="flex justify-start">
-          <img src="./img/strategy.png" alt="strategy" class="w-[120px]" />
-        </div>
-        <div>
-          <h5 class="flex text-xl text-orange font-bold">strategy</h5>
-          <a class="flex bg-orange w-12 h-1 rounded-xl"></a>
-          <p>
-            Understanding the steps needed to beat your competitors is<br />
-            essential when understanding the length of the project, and<br />
-            how we will effectively tackle your digital marketing.​ We<br />
-            also make sure to get you the most value for your money.​
-          </p>
+          <div>
+            <h1 class="flex text-xl text-orange font-bold">strategy</h1>
+            <a class="flex bg-orange w-12 h-1 rounded-xl"></a>
+            <p>
+              Understanding the steps needed to beat your competitors is
+              essential when understanding the length of the project, and how we
+              will effectively tackle your digital marketing.​ We also make sure
+              to get you the most value for your money.​
+            </p>
+          </div>
         </div>
       </div>
       <!-- 4 -->
-      <div class="flex gap-x-6 justify-end">
-        <div><img src="./img/lunch.png" alt="lunch" class="w-[150px]" /></div>
-        <div>
-          <h6 class="flex text-xl text-orange font-bold">lunch</h6>
-          <a class="flex bg-orange w-12 h-1 rounded-xl"></a>
-          <p>
-            Launching everything into action will be the start of your<br />
-            new marketing strategy. Taking every step we have planned<br />
-            and carefully following the laid-out road map to reach your<br />
-            business goals. ​​
-          </p>
+      <div class="flex justify-end">
+        <div
+          class="flex flex-col sm:flex-row gap-9 shadow-xl p-5 md:w-[600px] rounded-md"
+        >
+          <img src="./img/lunch.png" alt="lunch" width="180" />
+          <div>
+            <h1 class="flex text-xl text-orange font-bold">lunch</h1>
+            <a class="flex bg-orange w-12 h-1 rounded-xl"></a>
+            <p>
+              Launching everything into action will be the start of your new
+              marketing strategy. Taking every step we have planned and
+              carefully following the laid-out road map to reach your business
+              goals.​
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -202,7 +203,6 @@
       <h8>our testimonials</h8>
     </div>
     <!-- next  -->
-
     <div class="flex justify-center gap-x-6">
       <div class="">
         <img src="./img/yellow box.svg" alt="yellow" class="w-[80px]" />
@@ -295,8 +295,6 @@
         </div>
       </div>
     </div>
-
-    <!-- next  -->
     <!-- footer start -->
     <div class="flex justify-center py-9">
       <div

@@ -33,55 +33,59 @@
     <title>about us</title>
   </head>
   <body>
-    <nav
-      class="grid grid-cols-2 justify-center items-center gap- px-[30px] py-[0px]"
-    >
-      <div>
-        <img src="./img/logo.svg" alt="logo" class="flex justify-evenly" />
-      </div>
+    <!-- start navbar -->
+    <nav class="flex justify-around items-center">
+      <a href="./index.html">
+        <img src="./img/logo.svg" alt="logo" class="cursor-pointer" />
+      </a>
 
-      <div class="flex gap-2 py-9">
-        <ul class="hidden md:flex gap-5 py-2">
+      <div class="flex py-9">
+        <ul class="hidden md:flex gap-3 py-2 font-sami-bold">
           <li><a href="./services.html">Services</a></li>
           <li><a href="./lunar specailists.html">lunarspecailists</a></li>
           <li><a href="./Industries.html">Industries</a></li>
-          <li><a href="./About us.html">AboutUs </a></li>
-          <li><a href="./free Audit.html">freeAudit</a></li>
-          <li><a href="./blog.html">blog</a></li>
+          <li><a href="./About us.html">AboutUs</a></li>
+          <li><a href="./free Audit.html">FreeAudit</a></li>
+          <li><a href="./blog.html">Blog</a></li>
         </ul>
         <img
-          src="./img/nevbar.svg"
+          src="./img/Sidebar.png"
           class="flex md:hidden justify-end items-end cursor-pointer text-orange"
+          width="30"
         />
-
-        <button
-          class="flex text-orange border-2 border-orange border-solid w-[100px] h-[40px] rounded-full justify-center items-center"
-        >
-          contact us
-        </button>
       </div>
+      <button
+        class="hidden md:flex text-orange border-2 border-orange border-solid w-[100px] h-[40px] rounded-full justify-center items-center"
+      >
+        contact us
+      </button>
     </nav>
     <!-- end navbar  -->
     <!-- herro section start -->
-    <div
-      class="grid grid-col-1 md:grid-cols-2 text-center justify-center items-center px-[200px] gap-x-[100px]"
-    >
-      <div class="flex flex-col py-[60px] gap-y-5 justify-center">
+    <div class="flex flex-col md:flex-row items-center justify-around">
+      <div class="flex flex-col gap-y-3 px-5">
         <h1 class="flex text-3xl font-bold">
-          Consistency - Drive - <br />
-          Curiosity - Passion​
+          We Help You Grow Your Conversions
         </h1>
-        <p class="flex text-xs">
-          In a constantly evolving and competitive digital world, it is <br />
-          imperative to stay on top and in the know, be highly visible among<br />
-          search results and feeds, and be responsive to your audience.
+        <p class="flex text-md">
+          Featured in leading publications around the World.
         </p>
+        <div class="flex flex-wrap gap-x-6">
+          <img src="./img/word 1.svg" alt="word 1" width="100" />
+          <img src="./img/word 2.svg" alt="word 2" width="100" />
+          <img src="./img/word 3.svg" alt="word 3" width="100" />
+        </div>
+        <button
+          class="flex bg-orange w-[100px] h-[40px] justify-center items-center text-white rounded-xl"
+        >
+          Contact US
+        </button>
       </div>
-      <div class="flex justify-center">
-        <img src="./img/dimond.svg" alt="daimond" class="w-[200px]" />
+      <div class="flex">
+        <img src="./img/Social Media 1.svg" alt=" social media" width="300" />
       </div>
     </div>
-    <!-- herro section end -->
+    <!-- herro section end  -->
     <!-- next  -->
     <div class="flex justify-center items-center py-9">
       <h2 class="flex text-xl md:text-3xl font-bold">
@@ -123,8 +127,10 @@
       </div>
     </div>
     <!-- next  -->
-     <div class="flex justify-center items-center py-9">
-      <div class="grid grid-col-1 md:grid-cols-2 justify-center items-center gap-x-[100px]">
+    <div class="flex justify-center items-center py-9">
+      <div
+        class="grid grid-col-1 md:grid-cols-2 justify-center items-center gap-x-[100px]"
+      >
         <div class="flex justify-center">
           <img src="./img/light.svg" alt="light" class="w-[350px]" />
         </div>
@@ -144,14 +150,14 @@
             expectations.
           </p>
           <p>
-            Book a meeting with us today, free of charge, and we’ll talk about how
-            we<br />
+            Book a meeting with us today, free of charge, and we’ll talk about
+            how we<br />
             can implement a thorough and solid marketing strategy.
           </p>
         </div>
       </div>
-     </div>
-      <!-- next  -->
+    </div>
+    <!-- next  -->
     <div class="flex justify-center py-9">
       <div
         class="grid bg-orange w-[290px] md:w-[550px] h-[5px] justify-center rounded-t-lg"
@@ -255,10 +261,10 @@
     </div>
 
     <!-- next  -->
-     <!-- footer start -->
+    <!-- footer start -->
     <div class="flex justify-center py-9">
       <div
-        class="flex flex-col md:flex-row bg-orange w-[300px] gap-y-7  md:w-[800px] h-[700px] md:h-[300px] justify-center items-center py-9 gap-x-[200px]"
+        class="flex flex-col md:flex-row bg-orange w-[300px] gap-y-7 md:w-[800px] h-[700px] md:h-[300px] justify-center items-center py-9 gap-x-[200px]"
       >
         <div class="flex flex-col gap-y-7">
           <img src="./img/logo.svg" alt=" logo" class="" />
@@ -301,7 +307,5 @@
       </div>
     </div>
     <!-- footer end  -->
-    
-   
   </body>
 </html>
